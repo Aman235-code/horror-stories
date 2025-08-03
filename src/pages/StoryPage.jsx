@@ -26,36 +26,36 @@ const StoryPage = () => {
 
   return (
     <>
-      <div className="pt-20 min-h-screen h-full bg-black bg-[url('/images/halloween.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 py-12 bg-fixed">
-        <motion.main
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="w-full max-w-3xl bg-black/60 backdrop-blur-md rounded-lg border border-red-700 shadow-2xl p-8 text-red-500"
-        >
-          {/* Header Icons */}
-          <div className="flex items-center justify-center gap-4 mb-6 text-red-400 animate-pulse">
-            <Ghost size={28} />
-            <Flame size={24} />
-            <Skull size={26} />
-          </div>
+      <div className="pt-20 min-h-screen h-full bg-black bg-[url('/images/woods2.jpg')] bg-cover bg-center bg-no-repeat  px-4 py-12 bg-fixed">
+        <div className="pt-20 min-h-screen h-full flex items-center justify-center">
+          <motion.main
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="w-full max-w-3xl bg-black/60 backdrop-blur-md rounded-lg border border-red-700 shadow-2xl p-8 text-red-500"
+          >
+            {/* Header Icons */}
+            <div className="flex items-center justify-center gap-4 mb-6 text-red-400 animate-pulse">
+              <Ghost size={28} />
+              <Flame size={24} />
+              <Skull size={26} />
+            </div>
 
-          {/* Markdown Article */}
-          <article className="prose prose-invert max-w-none prose-img:rounded-lg prose-headings:text-red-400 prose-p:text-red-300 prose-li:text-red-300">
-            <MarkdownRenderer content={content} />
-          </article>
-        </motion.main>
-        {/* 👇 Back to Home Button */}
+            {/* Markdown Article */}
+            <article className="prose prose-invert max-w-none prose-img:rounded-lg prose-headings:text-red-400 prose-p:text-red-300 prose-li:text-red-300">
+              <MarkdownRenderer content={content} />
+            </article>
+          </motion.main>
+        </div>
+        <div className="flex w-full justify-center mb-4">
+          <Link
+            to="/"
+            className="inline-block mt-10 px-6 py-3 text-sm font-bold rounded-md text-white bg-black neon-button transition-all duration-300 hover:bg-gray-900"
+          >
+            ← Back to Home
+          </Link>
+        </div>
       </div>
-      <div className="flex justify-center mb-6">
-        <Link
-          to="/"
-          className="inline-block mt-10 px-6 py-3 text-sm font-bold rounded-md text-white bg-black neon-button transition-all duration-300 hover:bg-gray-900"
-        >
-          ← Back to Home
-        </Link>
-      </div>
-      {/* <Footer /> */}
     </>
   );
 };

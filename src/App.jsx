@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="min-h-screen h-full bg-black bg-[url('/images/fog1.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
+    <div className="min-h-screen h-full bg-black bg-[url('/images/woods.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
       <Router>
         <Navbar />
         <ScrollProgressBar />

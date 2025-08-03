@@ -17,7 +17,7 @@ const typewriterVariants = {
 const ConspiraCies = () => {
   return (
     <>
-      <main className="pt-20 p-8 space-y-16 min-h-screen h-full bg-black bg-[url('/images/conspiracy.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
+      <main className="pt-20 p-8 space-y-16 min-h-screen h-full bg-black bg-[url('/images/cans.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
         {/* Title Section */}
         <motion.div
           initial={{ opacity: 0, y: -30 }}
