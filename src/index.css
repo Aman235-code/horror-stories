@@ -3,6 +3,10 @@
 body {
   /* font-family: "Inter", sans-serif; */
   font-family: "Creepster", cursive;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .shimmer-hover {
@@ -168,8 +172,17 @@ body {
 }
 
 @keyframes flickerAnimation {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
-  60% { opacity: 0.8; }
-  80% { opacity: 0.4; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.4;
+  }
 }
