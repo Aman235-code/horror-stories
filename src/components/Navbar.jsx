@@ -20,7 +20,7 @@ const Navbar = () => {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeInOut" }}
-      className="w-full z-[999] relative bg-black bg-[url('/images/fog2.jpg')] bg-cover bg-center backdrop-blur-sm shadow-md border-b border-red-900 py-3 px-6"
+      className="fixed top-0 left-0 w-full z-[999]  bg-black bg-[url('/images/fog2.jpg')] bg-cover bg-center backdrop-blur-sm shadow-md border-b border-red-900 py-3 px-6"
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center text-white">
         {/* Left: Logo */}
@@ -116,7 +116,8 @@ const Navbar = () => {
               </button>
             </div>
             <ul className="space-y-4">
-              <Link to={'/horror'}
+              <Link
+                to={"/horror"}
                 onClick={() => handleSelect("Horror Stories")}
                 className={`flex items-center gap-2 cursor-pointer transition ${
                   active === "Horror Stories"
@@ -127,7 +128,8 @@ const Navbar = () => {
                 <BookOpen size={18} />
                 Horror Stories
               </Link>
-              <Link to={'/conspiracy'}
+              <Link
+                to={"/conspiracy"}
                 onClick={() => handleSelect("Conspiracy Theories")}
                 className={`flex items-center gap-2 cursor-pointer transition ${
                   active === "Conspiracy Theories"

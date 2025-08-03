@@ -17,7 +17,7 @@ const typewriterVariants = {
 const ConspiracyPage = () => {
   return (
     <>
-      <main className="p-8 space-y-16 min-h-screen">
+      <main className="pt-20 p-8 space-y-16 min-h-screen">
         {/* Glassmorphic Title */}
         <motion.div
           initial={{ opacity: 0, y: -30 }}

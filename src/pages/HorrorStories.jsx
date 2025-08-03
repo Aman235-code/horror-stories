@@ -18,7 +18,7 @@ const HorrorStories = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <main className="p-8 space-y-16 min-h-screen h-full bg-black bg-[url('/images/horror.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
+      <main className="pt-20 p-8 space-y-16 min-h-screen h-full bg-black bg-[url('/images/horror.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
         <motion.div
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}

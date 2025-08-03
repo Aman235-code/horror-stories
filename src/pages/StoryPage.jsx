@@ -26,7 +26,7 @@ const StoryPage = () => {
 
   return (
     <>
-      <div className="min-h-screen h-full bg-black bg-[url('/images/halloween.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 py-12 bg-fixed">
+      <div className="pt-20 min-h-screen h-full bg-black bg-[url('/images/halloween.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 py-12 bg-fixed">
         <motion.main
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}

@@ -16,7 +16,7 @@ const typewriterVariants = {
 const HorrorPage = () => {
   return (
     <>
-      <main className="p-8 space-y-16 min-h-screen">
+      <main className="pt-20 p-8 space-y-16 min-h-screen">
         <motion.div
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}

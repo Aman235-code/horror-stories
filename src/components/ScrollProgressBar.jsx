@@ -19,7 +19,7 @@ const ScrollProgressBar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-1 z-50">
+    <div className="fixed top-[52px] left-0 w-full h-[6px] z-[998] bg-black">
       <div
         className="h-full bg-red-600 transition-all duration-150 ease-in-out"
         style={{ width: `${scrollTop}%` }}
