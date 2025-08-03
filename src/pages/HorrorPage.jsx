@@ -2,9 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import StoryCard from "../components/StoryCard";
-import conspiracyData from "../data/conspiracyData.json";
+import storyData from "../data/storyData.json";
 import { Link } from "react-router-dom";
-import ConspiracyCard from './../components/ConspiracyCard';
 
 const typewriterVariants = {
   hidden: { width: 0 },
@@ -14,11 +13,10 @@ const typewriterVariants = {
   },
 };
 
-const ConspiracyPage = () => {
+const HorrorPage = () => {
   return (
     <>
       <main className="p-8 space-y-16 min-h-screen">
-        {/* Glassmorphic Title */}
         <motion.div
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -26,41 +24,40 @@ const ConspiracyPage = () => {
           className="shadow-2xl max-w-xl mx-auto text-center py-6 px-4"
         >
           <motion.h2
-            className="text-3xl sm:text-4xl md:text-5xl text-blue-400 font-creepster uppercase tracking-widest flicker"
+            className="text-3xl sm:text-4xl md:text-5xl text-red-600 font-creepster uppercase tracking-widest flicker"
             variants={typewriterVariants}
             initial="hidden"
             animate="visible"
           >
-            Conspiracy Theories
+            Latest Horror Stories
           </motion.h2>
           <p className="mt-2 text-gray-300 text-sm italic">
-            Not everything is what it seems... 🧠
+            Created & Written By : Aman
+            <br /> Don’t read this alone... 👀
           </p>
         </motion.div>
 
-        {/* Cards */}
-        <div className="grid md:grid-cols-2 gap-6 mt-6">
-          {conspiracyData.slice(0, 2).map((theory, idx) => (
-            <ConspiracyCard
+        <div className="grid md:grid-cols-2 gap-6">
+          {storyData.slice(0, 2).map((story, idx) => (
+            <StoryCard
               key={idx}
-              title={theory.title}
-              description={theory.description}
-              image={theory.image}
-              author={theory.author}
-              date={theory.date}
-              isNew={theory.new}
-              slug={theory.slug}
+              title={story.title}
+              description={story.description}
+              image={story.image}
+              author={story.author}
+              date={story.date}
+              isNew={story.new}
+              slug={story.slug}
             />
           ))}
         </div>
 
-        {/* Read My Story Button */}
         <div className="flex justify-center">
           <Link
-            to="/conspiracy"
+            to="/horror"
             className="inline-block mt-8 px-6 py-3 text-sm font-bold rounded-md text-white bg-black neon-button transition-all duration-300 hover:bg-gray-900"
           >
-            Read Conspiracy Theories →
+            Read My Stories →
           </Link>
         </div>
       </main>
@@ -68,4 +65,4 @@ const ConspiracyPage = () => {
   );
 };
 
-export default ConspiracyPage;
+export default HorrorPage;

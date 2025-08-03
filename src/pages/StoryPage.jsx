@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import MarkdownRenderer from "./MarkdownRenderer";
-import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { Ghost, Flame, Skull } from "lucide-react";
 import { Link } from "react-router-dom";
