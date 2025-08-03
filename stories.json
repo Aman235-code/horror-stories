@@ -1,0 +1,38 @@
+[
+    {
+        "title": "The Creaking Wardrobe",
+        "description": "Each night, it opened an inch wider.",
+        "author": "Aman",
+        "date": "July 29, 2025",
+        "new": false,
+        "image": "/images/room404.jpg",
+        "slug": "creaking-wardrobe"
+    },
+    {
+        "title": "Footsteps on the Ceiling",
+        "description": "They weren’t rats. They were heavier.",
+        "author": "Aman",
+        "date": "July 28, 2025",
+        "new": false,
+        "image": "/images/room404.jpg",
+        "slug": "footsteps-on-ceiling"
+    },
+    {
+        "title": "The Mirror That Blinks",
+        "description": "My reflection started smiling back differently.",
+        "author": "Aman",
+        "date": "July 27, 2025",
+        "new": false,
+        "image": "/images/room404.jpg",
+        "slug": "mirror-that-blinks"
+    },
+    {
+        "title": "Voices in the Radio",
+        "description": "No station. Still, the whispers came.",
+        "author": "Aman",
+        "date": "July 26, 2025",
+        "new": false,
+        "image": "/images/room404.jpg",
+        "slug": "voices-in-radio"
+    }
+]

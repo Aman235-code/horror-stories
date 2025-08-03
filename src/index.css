@@ -1,0 +1,175 @@
+@import "tailwindcss";
+
+body {
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Creepster", cursive;
+}
+
+.shimmer-hover {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.shimmer-hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transform: skewX(-20deg);
+  transition: left 0.5s;
+}
+
+.shimmer-hover:hover::before {
+  left: 125%;
+}
+
+@layer utilities {
+  .animate-flicker {
+    animation: flicker 2s infinite;
+  }
+
+  @keyframes flicker {
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+      opacity: 1;
+    }
+    20%,
+    24%,
+    55% {
+      opacity: 0.4;
+    }
+  }
+}
+
+@layer base {
+  .font-creepster {
+    font-family: "Creepster", cursive;
+  }
+}
+
+@layer utilities {
+  .shimmer-hover {
+    background: linear-gradient(90deg, #ffffff, #888, #ffffff);
+    background-size: 200% auto;
+    color: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 2s linear infinite;
+  }
+
+  @keyframes shimmer {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+
+@layer base {
+  .font-creepster {
+    font-family: "Creepster", cursive;
+  }
+}
+
+@layer utilities {
+  .shimmer-hover {
+    background: linear-gradient(90deg, #ffffff, #888, #ffffff);
+    background-size: 200% auto;
+    color: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 2s linear infinite;
+  }
+}
+
+.neon-button {
+  border: 1px solid #ff0000;
+  box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000;
+}
+
+.neon-button:hover {
+  background-color: #ff0000;
+  color: black;
+  box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000;
+}
+
+/* Flicker Animation */
+@layer utilities {
+  @keyframes flicker {
+    0%,
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
+    }
+    10% {
+      opacity: 0.8;
+      text-shadow: none;
+    }
+    20% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0.7;
+    }
+    40% {
+      opacity: 0.9;
+      text-shadow: 0 0 5px #ff0000;
+    }
+    50% {
+      opacity: 0.6;
+      text-shadow: none;
+    }
+    60%,
+    80% {
+      opacity: 1;
+      text-shadow: 0 0 8px #ff0000, 0 0 12px #ff0000;
+    }
+    70% {
+      opacity: 0.3;
+    }
+    90% {
+      opacity: 0.95;
+      text-shadow: 0 0 4px #ff0000;
+    }
+  }
+
+  .flicker {
+    animation: flicker 2.5s infinite;
+  }
+}
+
+.neon-button {
+  box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+.neon-button:hover {
+  box-shadow: 0 0 8px #ff0000, 0 0 16px #ff0000, 0 0 32px #ff0000;
+}
+
+.flicker {
+  animation: flickerAnimation 1.8s infinite alternate;
+}
+
+@keyframes flickerAnimation {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+  60% { opacity: 0.8; }
+  80% { opacity: 0.4; }
+}
