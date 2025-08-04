@@ -33,7 +33,16 @@ const HorrorPage = () => {
           </motion.h2>
           <p className="mt-2 text-gray-300 text-sm italic">
             Created & Written By : Aman
-            <br /> Don’t read this alone... 👀
+            <br />
+            <span className="text-xs text-gray-400 block mt-1">
+              I'm a spooky, curious guy who loves conspiracy theories,
+              <br />
+              fascinated by UFOs, secret bases, and everything scary that
+              <br />
+              makes your spine tingle. I write these stories to make you
+              <br />
+              wonder what's really out there in the dark...
+            </span>
           </p>
         </motion.div>
 
