@@ -23,7 +23,7 @@ const StoryCard = ({ title, description, image, author, date, isNew,slug }) => {
           <img
             src={image}
             alt={title}
-            className="w-full h-52 object-cover rounded-md border border-white/20"
+            className="w-full h-60 object-cover rounded-md border border-white/20"
           />
           <Ghost className="absolute top-3 right-3 text-red-300 bg-black/70 p-1 rounded-full shadow-md" size={26} />
           {isNew && (
