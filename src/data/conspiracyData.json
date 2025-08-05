@@ -1,12 +1,21 @@
 [
   {
+    "title": "Voices in the Appalachian Mountains",
+    "slug": "appalachian-mountains",
+    "description": "Whispers echo in the woods… and not all of them are human.",
+    "image": "/images/appalachian.jpg",
+    "author": "Aman",
+    "date": "Aug 3, 2025",
+    "new": true
+  },
+  {
     "title": "Area 51 Secrets",
     "slug": "area-51-secrets",
     "description": "What’s really hiding in the Nevada desert?",
     "image": "/images/area51.jpg",
     "author": "Aman",
     "date": "Aug 1, 2025",
-    "new": false
+    "new": true
   },
   {
     "title": "Cash-Landrum Incident",
