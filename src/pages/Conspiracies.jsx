@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import ConspiracyCard from "../components/ConspiracyCard";
 import conspiracyData from "../data/conspiracyData.json";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
 
 const typewriterVariants = {
   hidden: { width: 0 },
@@ -26,7 +25,7 @@ const ConspiraCies = () => {
           className="shadow-2xl max-w-xl mx-auto text-center py-6 px-4"
         >
           <motion.h2
-            className="text-3xl sm:text-4xl md:text-5xl text-blue-400 font-creepster uppercase tracking-widest flicker"
+            className="text-3xl sm:text-4xl md:text-5xl text-blue-400 font-creepster uppercase tracking-widest"
             variants={typewriterVariants}
             initial="hidden"
             animate="visible"
@@ -39,7 +38,7 @@ const ConspiraCies = () => {
         </motion.div>
 
         {/* Conspiracy Cards */}
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           {conspiracyData.map((theory, idx) => (
             <ConspiracyCard
               key={idx}

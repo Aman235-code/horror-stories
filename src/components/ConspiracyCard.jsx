@@ -25,7 +25,7 @@ const ConspiracyCard = ({
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="bg-black/40 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border border-cyan-900 hover:border-cyan-500 transition duration-300"
+      className="bg-black/40 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border border-cyan-900 hover:border-red-500 transition duration-300"
     >
       <div className="p-4 flex flex-col h-full text-white">
         <div className="relative">

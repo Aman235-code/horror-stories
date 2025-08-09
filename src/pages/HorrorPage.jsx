@@ -24,7 +24,7 @@ const HorrorPage = () => {
           className="shadow-2xl max-w-xl mx-auto text-center py-6 px-4"
         >
           <motion.h2
-            className="text-3xl sm:text-4xl md:text-5xl text-red-600 font-creepster uppercase tracking-widest flicker"
+            className="text-3xl sm:text-4xl md:text-5xl text-red-600 font-creepster uppercase tracking-widest"
             variants={typewriterVariants}
             initial="hidden"
             animate="visible"
@@ -46,8 +46,8 @@ const HorrorPage = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {storyData.slice(0, 2).map((story, idx) => (
+        <div className="grid md:grid-cols-3 gap-6">
+          {storyData.slice(0, 3).map((story, idx) => (
             <StoryCard
               key={idx}
               title={story.title}

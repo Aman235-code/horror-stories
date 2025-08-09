@@ -26,19 +26,19 @@ const HorrorStories = () => {
           className="shadow-2xl max-w-xl mx-auto text-center py-6 px-4"
         >
           <motion.h2
-            className="text-3xl sm:text-4xl md:text-5xl text-red-600 font-creepster uppercase tracking-widest flicker"
+            className="text-3xl sm:text-4xl md:text-5xl text-red-600 font-creepster uppercase tracking-widest"
             variants={typewriterVariants}
             initial="hidden"
             animate="visible"
           >
             All Horror Stories
           </motion.h2>
-          <p className="mt-2 text-gray-300 text-sm italic">
+          <p className="mt-2 text-yellow-500 text-sm italic">
             Dare to read them all? 👁️‍🗨️
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           {storyData.map((story, idx) => (
             <StoryCard
               key={idx}

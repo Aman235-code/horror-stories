@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { motion } from "framer-motion";
-import StoryCard from "../components/StoryCard";
 import conspiracyData from "../data/conspiracyData.json";
 import { Link } from "react-router-dom";
 import ConspiracyCard from './../components/ConspiracyCard';
@@ -26,7 +25,7 @@ const ConspiracyPage = () => {
           className="shadow-2xl max-w-xl mx-auto text-center py-6 px-4"
         >
           <motion.h2
-            className="text-3xl sm:text-4xl md:text-5xl text-blue-400 font-creepster uppercase tracking-widest flicker"
+            className="text-3xl sm:text-4xl md:text-5xl text-blue-400 font-creepster uppercase tracking-widest"
             variants={typewriterVariants}
             initial="hidden"
             animate="visible"
@@ -39,8 +38,8 @@ const ConspiracyPage = () => {
         </motion.div>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-2 gap-6 mt-6">
-          {conspiracyData.slice(0, 2).map((theory, idx) => (
+        <div className="grid md:grid-cols-3 gap-6 mt-6">
+          {conspiracyData.slice(0, 3).map((theory, idx) => (
             <ConspiracyCard
               key={idx}
               title={theory.title}
