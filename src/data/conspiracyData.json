@@ -1,5 +1,23 @@
 [
   {
+    "title": "The Slender Man Stabbing",
+    "slug": "slender-man-stabbing-2014",
+    "description": "A chilling real-life horror where two girls attempted murder inspired by the internet myth of Slender Man.",
+    "image": "/images/slenderman.jpg",
+    "author": "Aman",
+    "date": "Aug 13, 2025",
+    "new": true
+  },
+  {
+    "title": "Besa Mafia Conspiracy",
+    "slug": "besa-mafia-conspiracy",
+    "description": "The dark web's most infamous 'hitman for hire' site — and the strange FBI sting that may have been a scam from the start.",
+    "image": "/images/besamafia.jpg",
+    "author": "Aman",
+    "date": "Aug 13, 2025",
+    "new": true
+  },
+  {
     "title": "Cicada 3301 Mystery",
     "slug": "cicada-3301",
     "description": "An anonymous online puzzle that may have been a recruitment for an unknown organization — or something darker.",

@@ -1,5 +1,15 @@
 [
   {
+    "title": "Red Rooms and Alleged Live Killings", 
+    "description": "Dark web “Red Rooms” allegedly streamed live torture and murder, creating one of the creepiest modern internet legends.",  
+    "author": "Aman",
+    "date": "August 13, 2025",
+    "new": true,
+    "image": "/images/redroom.jpg",
+    "slug": "red-rooms-dark-web"
+  }
+,  
+  {
     "title": "The Dyatlov Pass Incident",
     "description": "Nine hikers vanished in the frozen Ural Mountains — their deaths remain one of history's strangest unsolved mysteries.",
     "author": "Aman",
