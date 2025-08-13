@@ -1,5 +1,14 @@
 [
   {
+    "title": "Cicada 3301 Mystery",
+    "slug": "cicada-3301",
+    "description": "An anonymous online puzzle that may have been a recruitment for an unknown organization — or something darker.",
+    "image": "/images/cicada3301.jpg",
+    "author": "Aman",
+    "date": "Aug 13, 2025",
+    "new": true
+  },
+  {
     "title": "The Phoenix Lights",
     "slug": "phoenix-lights",
     "description": "The night Arizona's skies lit up with a mysterious V-shaped formation seen by thousands.",
