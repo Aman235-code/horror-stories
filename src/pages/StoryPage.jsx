@@ -27,7 +27,7 @@ const StoryPage = () => {
   return (
     <>
       <div className="pt-20 min-h-screen h-full bg-black bg-[url('/images/woods2.jpg')] bg-cover bg-center bg-no-repeat  px-4 py-12 bg-fixed">
-        <div className="pt-20 min-h-screen h-full flex items-center justify-center">
+        <div className="pt-20 text-justify min-h-screen h-full flex items-center justify-center">
           <motion.main
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
