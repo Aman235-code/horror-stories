@@ -1,11 +1,29 @@
 [
   {
-    "title": "The Whispering Corridor",
-    "description": "Something followed me from the basement...",
+    "title": "The Dyatlov Pass Incident",
+    "description": "Nine hikers vanished in the frozen Ural Mountains — their deaths remain one of history's strangest unsolved mysteries.",
     "author": "Aman",
-    "date": "August 1, 2025",
+    "date": "August 13, 2025",
     "new": true,
-    "image": "/images/room404.jpg",
-    "slug": "the-whispering-corridor"
+    "image": "/images/dyatlov-pass.jpg",
+    "slug": "the-dyatlov-pass-incident"
+  },
+  {
+    "title": "The Hinterkaifeck Murders",
+    "description": "A remote farmhouse, an entire family slaughtered, and the killer lived there for days afterward.",
+    "author": "Aman",
+    "date": "August 13, 2025",
+    "new": true,
+    "image": "/images/hinterkaifeck.jpg",
+    "slug": "the-hinterkaifeck-murders"
+  },
+  {
+    "title": "The Disappearance of Ashley Elkins",
+    "description": "Hairstylist and mom of two vanished in early 2025 — evidence points to horrific violence and still no body found.",
+    "author": "Aman",
+    "date": "August 13, 2025",
+    "new": true,
+    "image": "/images/ashley-elkins.jpg",
+    "slug": "the-disappearance-of-ashley-elkins"
   }
 ]

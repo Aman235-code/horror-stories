@@ -46,7 +46,7 @@ const ConspiracyCard = ({
         </div>
 
         <div className="mt-4 flex-1">
-          <h3 className="text-xl font-bold text-cyan-200 flex items-center gap-2">
+          <h3 className="text-xl font-bold text-red-500 flex items-center gap-2">
             {title}
             <Eye size={18} className="text-cyan-400" />
           </h3>

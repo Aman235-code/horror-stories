@@ -34,7 +34,7 @@ const StoryCard = ({ title, description, image, author, date, isNew,slug }) => {
         </div>
 
         <div className="mt-4 flex-1">
-          <h3 className="text-xl font-bold text-red-200 flex items-center gap-2">
+          <h3 className="text-xl font-bold text-red-500 flex items-center gap-2">
             {title}
             <Eye size={18} className="text-red-400" />
           </h3>

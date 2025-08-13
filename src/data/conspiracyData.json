@@ -1,5 +1,23 @@
 [
   {
+    "title": "The Phoenix Lights",
+    "slug": "phoenix-lights",
+    "description": "The night Arizona's skies lit up with a mysterious V-shaped formation seen by thousands.",
+    "image": "/images/phoenixlights.jpg",
+    "author": "Aman",
+    "date": "Aug 13, 2025",
+    "new": true
+  },
+  {
+    "title": "Project Umbra: The Orbital Shade",
+    "slug": "project-umbra-orbital-shade",
+    "description": "They say a hidden satellite net dims the sky to steer storms—and to hide something brighter.",
+    "image": "/images/umbra.jpg",
+    "author": "Aman",
+    "date": "Aug 13, 2025",
+    "new": true
+  },
+  {
     "title": "Voices in the Appalachian Mountains",
     "slug": "appalachian-mountains",
     "description": "Whispers echo in the woods… and not all of them are human.",
