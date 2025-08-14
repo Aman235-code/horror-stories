@@ -1,14 +1,31 @@
 [
   {
-    "title": "Red Rooms and Alleged Live Killings", 
-    "description": "Dark web “Red Rooms” allegedly streamed live torture and murder, creating one of the creepiest modern internet legends.",  
+    "title": "The Island of the Dolls (Mexico)",
+    "description": "A haunting island in Xochimilco, Mexico, covered in decaying dolls said to be possessed by the spirit of a drowned girl.",
+    "author": "Aman",
+    "date": "August 14, 2025",
+    "new": true,
+    "image": "/images/islandofdolls.jpg",
+    "slug": "island-of-the-dolls-mexico"
+  },
+  {
+    "title": "Pacific Crest Trail Disappearances",
+    "description": "The Pacific Crest Trail, stretching 2,650 miles through the U.S., has seen a number of hikers vanish under mysterious circumstances, sparking theories of foul play and unexplained phenomena.",
+    "author": "Aman",
+    "date": "August 14, 2025",
+    "new": true,
+    "image": "/images/pacific-crest-trail.jpg",
+    "slug": "pacific-crest-trail-disappearances"
+  },
+  {
+    "title": "Red Rooms and Alleged Live Killings",
+    "description": "Dark web “Red Rooms” allegedly streamed live torture and murder, creating one of the creepiest modern internet legends.",
     "author": "Aman",
     "date": "August 13, 2025",
     "new": true,
     "image": "/images/redroom.jpg",
     "slug": "red-rooms-dark-web"
-  }
-,  
+  },
   {
     "title": "The Dyatlov Pass Incident",
     "description": "Nine hikers vanished in the frozen Ural Mountains — their deaths remain one of history's strangest unsolved mysteries.",

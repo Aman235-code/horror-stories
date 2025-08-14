@@ -1,5 +1,32 @@
 [
   {
+    "title": "The Bermuda Triangle Mystery",
+    "slug": "bermuda-triangle-mystery",
+    "description": "The infamous stretch of ocean where ships and planes have vanished without a trace, sparking decades of conspiracy theories.",
+    "image": "/images/bermuda-triangle.jpg",
+    "author": "Aman",
+    "date": "Aug 14, 2025",
+    "new": true
+  },
+  {
+    "title": "9/11 Attack Conspiracy",
+    "slug": "9-11-attack-conspiracy",
+    "description": "Claims of an inside job, controlled demolition, and questions around the Pentagon strike.",
+    "image": "/images/911.jpg",
+    "author": "Aman",
+    "date": "Aug 14, 2025",
+    "new": true
+  },
+  {
+    "title": "The Man Who Visits Our Dreams",
+    "slug": "the-man-who-visits-our-dreams",
+    "description": "Reports from around the world claim the same ordinary-looking man appears in people’s dreams—who is he, and why does he know your fears?",
+    "image": "/images/dreamman.jpg",
+    "author": "Aman",
+    "date": "Aug 14, 2025",
+    "new": true
+  },
+  {
     "title": "The Slender Man Stabbing",
     "slug": "slender-man-stabbing-2014",
     "description": "A chilling real-life horror where two girls attempted murder inspired by the internet myth of Slender Man.",
