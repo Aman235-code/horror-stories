@@ -6,7 +6,8 @@
     "date": "August 14, 2025",
     "new": true,
     "image": "/images/islandofdolls.jpg",
-    "slug": "island-of-the-dolls-mexico"
+    "slug": "island-of-the-dolls-mexico",
+    "tag": "haunted horror legend"
   },
   {
     "title": "Pacific Crest Trail Disappearances",
@@ -15,7 +16,8 @@
     "date": "August 14, 2025",
     "new": true,
     "image": "/images/pacific-crest-trail.jpg",
-    "slug": "pacific-crest-trail-disappearances"
+    "slug": "pacific-crest-trail-disappearances",
+    "tag": "unexplained mystery"
   },
   {
     "title": "Red Rooms and Alleged Live Killings",
@@ -24,7 +26,8 @@
     "date": "August 13, 2025",
     "new": true,
     "image": "/images/redroom.jpg",
-    "slug": "red-rooms-dark-web"
+    "slug": "red-rooms-dark-web",
+    "tag": "internet horror legend"
   },
   {
     "title": "The Dyatlov Pass Incident",
@@ -33,7 +36,8 @@
     "date": "August 13, 2025",
     "new": true,
     "image": "/images/dyatlov-pass.jpg",
-    "slug": "the-dyatlov-pass-incident"
+    "slug": "the-dyatlov-pass-incident",
+    "tag": "unsolved mystery"
   },
   {
     "title": "The Hinterkaifeck Murders",
@@ -42,7 +46,8 @@
     "date": "August 13, 2025",
     "new": true,
     "image": "/images/hinterkaifeck.jpg",
-    "slug": "the-hinterkaifeck-murders"
+    "slug": "the-hinterkaifeck-murders",
+    "tag": "true crime horror"
   },
   {
     "title": "The Disappearance of Ashley Elkins",
@@ -51,6 +56,7 @@
     "date": "August 13, 2025",
     "new": true,
     "image": "/images/ashley-elkins.jpg",
-    "slug": "the-disappearance-of-ashley-elkins"
+    "slug": "the-disappearance-of-ashley-elkins",
+    "tag": "real life mystery"
   }
 ]

@@ -5,7 +5,6 @@ import StoryCard from "../components/StoryCard";
 import storyData from "../data/storyData.json";
 import { Link } from "react-router-dom";
 
-
 const typewriterVariants = {
   hidden: { width: 0 },
   visible: {
@@ -31,11 +30,8 @@ const HorrorStories = () => {
             initial="hidden"
             animate="visible"
           >
-            All Horror Stories
+            Horror Stories Based on Real Events
           </motion.h2>
-          <p className="mt-2 text-yellow-500 text-sm italic">
-            Dare to read them all? 👁️‍🗨️
-          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -49,6 +45,7 @@ const HorrorStories = () => {
               date={story.date}
               isNew={story.new}
               slug={story.slug}
+              tag={story.tag}
             />
           ))}
         </div>

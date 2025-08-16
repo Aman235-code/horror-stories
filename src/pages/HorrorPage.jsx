@@ -29,7 +29,7 @@ const HorrorPage = () => {
             initial="hidden"
             animate="visible"
           >
-            Latest Horror Stories
+            Based on Real Events
           </motion.h2>
           <p className="mt-2 text-gray-300 text-sm italic">
             Created & Written By : Aman
@@ -47,7 +47,7 @@ const HorrorPage = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-6">
-          {storyData.slice(0, 3).map((story, idx) => (
+          {storyData.slice(0, 6).map((story, idx) => (
             <StoryCard
               key={idx}
               title={story.title}
@@ -57,6 +57,7 @@ const HorrorPage = () => {
               date={story.date}
               isNew={story.new}
               slug={story.slug}
+              tag={story.tag}
             />
           ))}
         </div>

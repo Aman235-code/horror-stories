@@ -39,7 +39,7 @@ const ConspiracyPage = () => {
 
         {/* Cards */}
         <div className="grid md:grid-cols-3 gap-6 mt-6">
-          {conspiracyData.slice(0, 3).map((theory, idx) => (
+          {conspiracyData.slice(0, 6).map((theory, idx) => (
             <ConspiracyCard
               key={idx}
               title={theory.title}

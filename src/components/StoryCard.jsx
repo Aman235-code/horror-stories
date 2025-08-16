@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
-import { Ghost, Eye } from "lucide-react";
+import { Ghost, Eye, Tag } from "lucide-react";
 import { motion } from "framer-motion";
 
-const StoryCard = ({ title, description, image, author, date, isNew,slug }) => {
+const StoryCard = ({ title, description, image, author, date, isNew, slug, tag }) => {
   return (
     <motion.div
       whileHover={{
@@ -16,16 +16,20 @@ const StoryCard = ({ title, description, image, author, date, isNew,slug }) => {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="bg-black/40 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border  hover:border-red-600 transition duration-300"
+      className="bg-black/40 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border hover:border-red-600 transition duration-300"
     >
       <div className="p-4 flex flex-col h-full text-white">
+        {/* Image */}
         <div className="relative">
           <img
             src={image}
             alt={title}
             className="w-full h-60 object-cover rounded-md border border-white/20"
           />
-          <Ghost className="absolute top-3 right-3 text-red-300 bg-black/70 p-1 rounded-full shadow-md" size={26} />
+          <Ghost
+            className="absolute top-3 right-3 text-red-300 bg-black/70 p-1 rounded-full shadow-md"
+            size={26}
+          />
           {isNew && (
             <span className="absolute top-3 left-3 bg-red-700 text-white text-xs px-2 py-0.5 rounded-full font-bold animate-pulse">
               NEW
@@ -33,17 +37,27 @@ const StoryCard = ({ title, description, image, author, date, isNew,slug }) => {
           )}
         </div>
 
+        {/* Content */}
         <div className="mt-4 flex-1">
           <h3 className="text-xl font-bold text-red-500 flex items-center gap-2">
             {title}
             <Eye size={18} className="text-red-400" />
           </h3>
           <p className="text-sm text-gray-300 mt-1">{description}</p>
+
+          {/* Tag */}
+          {tag && (
+            <span className="inline-flex items-center gap-1 text-xs font-semibold text-red-300 bg-red-900/40 px-2 py-1 rounded-full mt-2">
+              <Tag size={12} /> {tag}
+            </span>
+          )}
+
           <p className="text-xs mt-2 text-gray-400 italic">
             Written by {author} on {date}
           </p>
         </div>
 
+        {/* Button */}
         <div className="mt-4">
           <Link
             to={`/story/horror/${slug}`}

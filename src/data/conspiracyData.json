@@ -6,7 +6,8 @@
     "image": "/images/bermuda-triangle.jpg",
     "author": "Aman",
     "date": "Aug 14, 2025",
-    "new": true
+    "new": true,
+    "tag": "unexplained mystery"
   },
   {
     "title": "9/11 Attack Conspiracy",
@@ -15,7 +16,8 @@
     "image": "/images/911.jpg",
     "author": "Aman",
     "date": "Aug 14, 2025",
-    "new": true
+    "new": true,
+    "tag": "conspiracy theory"
   },
   {
     "title": "The Man Who Visits Our Dreams",
@@ -24,7 +26,8 @@
     "image": "/images/dreamman.jpg",
     "author": "Aman",
     "date": "Aug 14, 2025",
-    "new": true
+    "new": true,
+    "tag": "creepy legend"
   },
   {
     "title": "The Slender Man Stabbing",
@@ -33,7 +36,8 @@
     "image": "/images/slenderman.jpg",
     "author": "Aman",
     "date": "Aug 13, 2025",
-    "new": true
+    "new": true,
+    "tag": "real horror event"
   },
   {
     "title": "Besa Mafia Conspiracy",
@@ -42,7 +46,8 @@
     "image": "/images/besamafia.jpg",
     "author": "Aman",
     "date": "Aug 13, 2025",
-    "new": true
+    "new": true,
+    "tag": "dark web conspiracy"
   },
   {
     "title": "Cicada 3301 Mystery",
@@ -51,7 +56,8 @@
     "image": "/images/cicada3301.jpg",
     "author": "Aman",
     "date": "Aug 13, 2025",
-    "new": true
+    "new": true,
+    "tag": "internet mystery"
   },
   {
     "title": "The Phoenix Lights",
@@ -60,7 +66,8 @@
     "image": "/images/phoenixlights.jpg",
     "author": "Aman",
     "date": "Aug 13, 2025",
-    "new": true
+    "new": true,
+    "tag": "ufo phenomenon"
   },
   {
     "title": "Project Umbra: The Orbital Shade",
@@ -69,7 +76,8 @@
     "image": "/images/umbra.jpg",
     "author": "Aman",
     "date": "Aug 13, 2025",
-    "new": true
+    "new": true,
+    "tag": "science conspiracy"
   },
   {
     "title": "Voices in the Appalachian Mountains",
@@ -78,7 +86,8 @@
     "image": "/images/appalachian.jpg",
     "author": "Aman",
     "date": "Aug 3, 2025",
-    "new": true
+    "new": true,
+    "tag": "scary folklore"
   },
   {
     "title": "Area 51 Secrets",
@@ -87,7 +96,8 @@
     "image": "/images/area51.jpg",
     "author": "Aman",
     "date": "Aug 1, 2025",
-    "new": true
+    "new": true,
+    "tag": "alien conspiracy"
   },
   {
     "title": "Cash-Landrum Incident",
@@ -96,6 +106,7 @@
     "image": "/images/cashlandrum.jpg",
     "author": "Aman",
     "date": "Aug 2, 2025",
-    "new": false
+    "new": false,
+    "tag": "ufo mystery"
   }
 ]

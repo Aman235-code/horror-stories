@@ -8,10 +8,10 @@ const ScrollToTopButton = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const docHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
       const scrollPercent = (scrollTop / docHeight) * 100;
       setProgress(scrollPercent);
-
       setVisible(scrollTop > 200);
     };
 
@@ -23,47 +23,20 @@ const ScrollToTopButton = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const radius = 24;
-  const circumference = 2 * Math.PI * radius;
-  const offset = circumference - (progress / 100) * circumference;
-
   return (
     visible && (
-      <div className="fixed bottom-6 right-6 z-50 w-14 h-14">
-        <svg
-          className="absolute top-0 left-0 w-full h-full rotate-[-90deg]"
-          width="56"
-          height="56"
-        >
-          <circle
-            cx="28"
-            cy="28"
-            r={radius}
-            stroke="#991b1b"
-            strokeWidth="4"
-            fill="none"
-            className="opacity-30"
-          />
-          <circle
-            cx="28"
-            cy="28"
-            r={radius}
-            stroke="#ef4444"
-            strokeWidth="4"
-            fill="none"
-            strokeDasharray={circumference}
-            strokeDashoffset={offset}
-            strokeLinecap="round"
-            className="transition-all duration-200"
-          />
-        </svg>
-
+      <div
+        className="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full p-1"
+        style={{
+          background: `conic-gradient(#ef4444 ${progress}%, #1f2937 ${progress}% 100%)`,
+        }}
+      >
         <button
           onClick={scrollToTop}
-          className="w-full h-full flex items-center justify-center bg-black text-white border border-red-600 rounded-full shadow-md hover:scale-110 transition-all relative"
+          className="w-full h-full flex items-center justify-center bg-black text-white rounded-full shadow-md hover:scale-110 transition-all"
           aria-label="Scroll to top"
         >
-          <ArrowUp size={20} />
+          <ArrowUp size={22} />
         </button>
       </div>
     )
