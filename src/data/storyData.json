@@ -1,5 +1,15 @@
 [
   {
+    "title": "Point Nemo: The Ocean's Loneliest Place",
+    "slug": "point-nemo",
+    "description": "Far from any shore, this 'spacecraft cemetery' sits in waters so empty that astronauts are sometimes your closest neighbors. Myths, eerie sounds, and the science behind the South Pacific’s true nowhere.",
+    "image": "/images/point-nemo.jpg",
+    "author": "Aman",
+    "date": "Aug 16, 2025",
+    "new": true,
+    "tag": "unexplained mystery"
+  },
+  {
     "title": "The Island of the Dolls (Mexico)",
     "description": "A haunting island in Xochimilco, Mexico, covered in decaying dolls said to be possessed by the spirit of a drowned girl.",
     "author": "Aman",

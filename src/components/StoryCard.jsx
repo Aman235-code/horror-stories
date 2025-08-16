@@ -4,13 +4,22 @@ import { Link } from "react-router-dom";
 import { Ghost, Eye, Tag } from "lucide-react";
 import { motion } from "framer-motion";
 
-const StoryCard = ({ title, description, image, author, date, isNew, slug, tag }) => {
+const StoryCard = ({
+  title,
+  description,
+  image,
+  author,
+  date,
+  isNew,
+  slug,
+  tag,
+}) => {
   return (
     <motion.div
       whileHover={{
         scale: 1.03,
         boxShadow:
-          "0 0 20px rgba(255, 0, 0, 0.3), 0 0 40px rgba(255, 0, 0, 0.2)"
+          "0 0 20px rgba(255, 0, 0, 0.3), 0 0 40px rgba(255, 0, 0, 0.2)",
       }}
       whileTap={{ scale: 0.97 }}
       initial={{ opacity: 0, y: 30 }}
@@ -24,8 +33,9 @@ const StoryCard = ({ title, description, image, author, date, isNew, slug, tag }
           <img
             src={image}
             alt={title}
-            className="w-full h-60 object-cover rounded-md border border-white/20"
+            className="w-full max-h-60 object-contain rounded-md border border-white/20 bg-black"
           />
+
           <Ghost
             className="absolute top-3 right-3 text-red-300 bg-black/70 p-1 rounded-full shadow-md"
             size={26}
