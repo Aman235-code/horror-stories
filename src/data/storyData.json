@@ -1,5 +1,38 @@
 [
   {
+    "title": "The Mystery of Elisa Lam & The Cecil Hotel",
+    "slug": "elisa-lam",
+    "description": "The unsettling disappearance and death of Elisa Lam at Los Angeles’ infamous Cecil Hotel, blending tragedy, conspiracy, and paranormal theories.",
+    "author": "Aman",
+    "lang": "true-crime",
+    "new": true,
+    "date": "August 16, 2025",
+    "image": "/images/elisa-lam.jpg",
+    "tag": "True Crime"
+  },
+  {
+    "title": "Bloody Mary",
+    "slug": "bloody-mary",
+    "description": "The terrifying urban legend of Bloody Mary, said to appear when summoned in front of a mirror.",
+    "author": "Aman",
+    "lang": "urban-legend",
+    "new": true,
+    "date": "August 16, 2025",
+    "image": "/images/bloody-mary.jpg",
+    "tag": "Urban Legend"
+  },
+  {
+    "title": "The Disappearance of Flight MH370",
+    "slug": "flight-mh370",
+    "description": "Malaysia Airlines Flight MH370 vanished in 2014 with 239 people onboard, sparking one of the greatest aviation mysteries of all time.",
+    "author": "Aman",
+    "lang": "mystery",
+    "new": true,
+    "date": "August 16, 2025",
+    "image": "/images/mh370.jpg",
+    "tag": "Aviation Mystery"
+  },
+  {
     "title": "Point Nemo: The Ocean's Loneliest Place",
     "slug": "point-nemo",
     "description": "Far from any shore, this 'spacecraft cemetery' sits in waters so empty that astronauts are sometimes your closest neighbors. Myths, eerie sounds, and the science behind the South Pacific’s true nowhere.",
