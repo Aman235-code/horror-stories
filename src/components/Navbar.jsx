@@ -40,63 +40,6 @@ const Navbar = () => {
             Welcome to the Dark Side of the World
           </h1>
         </div>
-
-        {/* Desktop Dropdown */}
-        <div className="hidden sm:block relative z-[999]">
-          <button
-            onClick={() => setDropdownOpen(!isDropdownOpen)}
-            className="flex items-center gap-1 hover:cursor-pointer text-white bg-black/50 hover:bg-black/70 px-4 py-1 rounded-full border border-gray-700 text-sm transition"
-          >
-            All Topics <ChevronDown size={16} />
-          </button>
-
-          <AnimatePresence>
-            {isDropdownOpen && (
-              <motion.ul
-                initial={{ opacity: 0, y: -10 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }}
-                transition={{ duration: 0.2 }}
-                className="absolute right-0 mt-2 bg-black border border-gray-700 rounded-md shadow-lg w-44 z-[999]"
-              >
-                <Link
-                  to="/horror"
-                  onClick={() => handleSelect("Horror Stories")}
-                  className={`px-4 py-2 flex items-center gap-2 text-sm cursor-pointer transition ${
-                    active === "Horror Stories"
-                      ? "bg-gray-800 text-red-400"
-                      : "hover:bg-gray-800"
-                  }`}
-                >
-                  <BookOpen size={16} />
-                  Horror Stories
-                </Link>
-                <Link
-                  to={"/conspiracy"}
-                  onClick={() => handleSelect("Conspiracy Theories")}
-                  className={`px-4 py-2 flex items-center gap-2 text-sm cursor-pointer transition ${
-                    active === "Conspiracy Theories"
-                      ? "bg-gray-800 text-blue-400"
-                      : "hover:bg-gray-800"
-                  }`}
-                >
-                  <BrainCircuit size={16} />
-                  Conspiracy Theories
-                </Link>
-              </motion.ul>
-            )}
-          </AnimatePresence>
-        </div>
-
-        {/* Mobile Hamburger */}
-        <div className="sm:hidden">
-          <button
-            onClick={() => setDrawerOpen(!isDrawerOpen)}
-            className="p-2 hover:cursor-pointer border border-gray-600 rounded-full hover:bg-black/60 transition"
-          >
-            <Menu size={20} />
-          </button>
-        </div>
       </div>
 
       {/* Mobile Top Drawer */}
